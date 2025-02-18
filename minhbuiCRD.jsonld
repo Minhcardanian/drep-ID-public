@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "minhbuiCRD",
+    "motivations": "Decentralized governance is complex, challenging, and essential for Cardano’s future. I am motivated to become a DRep because I believe that overcoming these challenges is what will make Cardano truly resilient. Balancing diverse opinions, ensuring transparency, and making informed decisions are not easy tasks, but they are crucial—and I am ready to take them on.\n\nSince joining Cardano in 2021, I have actively contributed as a Project Catalyst Community Reviewer and Milestone Reviewer, evaluating proposals with fairness and accountability. This experience exposed me to the real challenges of decentralized decision-making and strengthened my commitment to improving the process.\n\nI aim to bring technical expertise from my work in Plutus, Aiken smart contracts, and stake pool operations, alongside my experience in community building, particularly in Southeast Asia. My focus is on promoting transparency, encouraging innovation, and ensuring that all voices are heard.",
+    "objectives": "What I Believe\n- Decentralized governance is essential for Cardano’s long-term success and resilience.Transparency, accountability, and community participation are the foundations of effective governance.High standards and continuous learning enable well-informed decisions that benefit all stakeholders.Technical innovation must be balanced with practical functionality for sustainable growth.Inclusivity ensures every voice in the Cardano community is heard and valued.\n\nWhat I Want to Achieve\nRepresent ADA holders by making transparent, well-researched governance decisions.Support high-quality proposals that foster innovation, sustainability, and ecosystem growth.Promote community engagement through open communication and active participation.Apply my technical expertise in Cardano Plutus, Aiken smart contracts, and stake pool operations to enhance both technical and governance aspects.Drive blockchain adoption in Southeast Asia through strategic community-building initiatives.",
+    "paymentAddress": "addr1q9vt4yuekunesu2gl88x48ezcvecnputtq7fssp8739j7cyujysuld7txkqqx849jsd8ygu76wu4xk2dc8mqrqpd5lesurt2fw",
+    "qualifications": "Cardano Blockchain Certified Associate Official – Cardano Foundation, Mar 2024\nCardano Haskell Developer Course – EMURGO Academy, Jan 2024\nCardano Blockchain Certified Associate (Alpha Program 2) – Cardano Foundation, Jun 2023\nAiken Developer Course – Focused on building smart contracts on Cardano.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "LinkedLn",
+        "uri": "https://www.linkedin.com/in/bqminhvn/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Github",
+        "uri": "https://github.com/Minhcardanian/drep-ID-public"
+      }
+    ]
+  }
+}
