@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "As a DRep, my role is to represent the community’s long-term interests, ensuring Cardano's sustainability, security, and decentralization. After carefully evaluating this proposal, I support reducing the treasury cut from 20% to 10% for the following reasons:\n\n1. Economic Sustainability & Incentive Alignment:\nThe proposal provides compelling evidence that the current 20% treasury cut was an arbitrary initial choice at the launch of Shelley. Reducing it to 10% enhances staking incentives, potentially increasing decentralization, network participation, and security without compromising the treasury’s long-term sustainability.\n\n2.Clear Mathematical and Economic Justification:\nThe proposal offers explicit and transparent economic modeling. The demonstrated improvement from ~4.0–4.5% APY represents a meaningful increase in staking rewards, aligning with the goal to attract more participants and secure the network robustly.\n\n3.Alignment with Cardano’s Constitution and Governance Framework:\nThis proposal complies fully with the constitutional provisions (explicitly allowed treasury cuts between 10%–30%), indicating thoughtful adherence to established governance standards.\n\n4.Strategic Benefit for the Ecosystem:\nEncouraging greater direct staking participation, rather than dependency on treasury allocations, strengthens organic ecosystem development. This aligns Cardano’s incentives towards sustainable growth and competitive positioning."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
